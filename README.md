@@ -3,7 +3,7 @@ Ban China Short Video Websites。 屏蔽中国的主流短视频网站。
 
 # 帮助完善
 
-请将域名提交到 [Issue #1](https://github.com/kmahyyg/ban_cnshort/issues/1)
+请将域名提交到 [Issue #1](https://github.com/kmahyyg/ban_cnshort/issues/1) 或 开启一个新的 Pull Request。
 
 # 覆盖
 
@@ -15,3 +15,7 @@ Ban China Short Video Websites。 屏蔽中国的主流短视频网站。
 直接复制到路由器 hosts.
 
 支持 DPI 和 行为管控 的路由器请直接控制对应域名。（例如： Gocloud 高恪固件）
+
+# Dnsmasq 用户
+
+请直接将本 Repo 下的 dnsmasq-localhost.conf 添加到下述文件中即可：`/etc/NetworkManager/dnsmasq.d/dnsmasq-localhost.conf`
