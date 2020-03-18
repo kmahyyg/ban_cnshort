@@ -19,3 +19,8 @@ Ban China Short Video Websites。 屏蔽中国的主流短视频网站。
 # Dnsmasq 用户
 
 请直接将本 Repo 下的 dnsmasq-localhost.conf 添加到下述文件中即可：`/etc/NetworkManager/dnsmasq.d/dnsmasq-localhost.conf`
+
+## 华硕路由器梅林固件使用方法
+
+ssh登入路由器后，在/jffs/configs目录下新建一个dnsmasq.conf.add文件，将本Repo下的dnsmasq-localhost.conf内容复制进去，保存。
+然后输入service restart_dnsmasq命令，看到Done.了之后就OK了。
