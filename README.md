@@ -1,4 +1,4 @@
-# ban_cnshort
+﻿# ban_cnshort
 
 Ban China Short Video Websites。 屏蔽中国的主流短视频网站。
 
@@ -27,3 +27,8 @@ Ban China Short Video Websites。 屏蔽中国的主流短视频网站。
 
 SSH 登入路由器后，在 `/jffs/configs` 目录下新建一个 `dnsmasq.conf.add` 文件，将本 Repo 下的 `dnsmasq-localhost.conf` 内容复制进去，保存。
 然后输入 `service restart_dnsmasq` 命令，看到 `Done.` 了之后就可以使用了。
+
+# RouterOS / Mikrotik路由器 用户
+
+WinBox登入RouterOS后在Files中点击"Upload"上传RouterOS-BanCNShort.rsc；
+然后点击"New Terminal"打开终端，输入命令"/import RouterOS-BanCNShort.rsc"运行即可
